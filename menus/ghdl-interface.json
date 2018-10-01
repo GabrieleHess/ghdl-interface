@@ -1,0 +1,38 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Run VHDL",
+        "command": "ghdl-interface:run"
+      },{
+        "label": "Compile VHDL",
+        "command": "ghdl-interface:compile_file"
+        },{
+        "label": "Use last TestBench",
+        "command": "ghdl-interface:lastTb"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ghdl-interface",
+          "submenu": [
+            {
+              "label": "Compile file",
+              "command": "ghdl-interface:compile_file"
+              },{
+              "label": "Run",
+              "command": "ghdl-interface:run"
+              },{
+              "label": "Use last TestBench",
+              "command": "ghdl-interface:lastTb"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

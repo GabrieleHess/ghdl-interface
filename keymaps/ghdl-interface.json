@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "f8": "ghdl-interface:compile_file",
+    "f10": "ghdl-interface:run",
+    "f9": "ghdl-interface:lastTb"
+  }
+}
