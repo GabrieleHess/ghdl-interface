@@ -1,21 +1,20 @@
 {
   "name": "ghdl-interface",
   "main": "./lib/ghdl-interface",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A ghdl tool for Atom",
-  "keywords": ["vhdl",
+  "keywords": [
+    "vhdl",
     "vhd",
     "ghdl",
     "gtkWave",
     "compiler"
   ],
-  "activationCommands": {
-  },
+  "activationCommands": {},
   "repository": "https://github.com/GabrieleHess/ghdl-interface",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
